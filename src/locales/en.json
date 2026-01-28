@@ -1,0 +1,397 @@
+{
+  "common": {
+    "contact": "Contact",
+    "menu": "Menu",
+    "learnMore": "Learn more",
+    "watchFilm": "Watch the film"
+  },
+  "about": {
+    "title": "About Us",
+    "story_p1": "Obsidian Intelligence was born from a simple question: What if life wasn't limited to carbon-based forms? We are a team of engineers and designers from the fields of robotics, AI, and precision manufacturing.",
+    "story_p2": "We don’t believe in brute force computing; we believe in elegant solutions. In a world full of noise, we are dedicated to creating silent, powerful, and invisible intelligence cores that drive the industrial heart of the future.",
+    "join_us": "Join us to redefine intelligence",
+    "location_title": "Beijing HQ",
+    "address": "Block A, Obsidian Innovation Center\nNo. 1 Zhongguancun Street, Haidian District, Beijing",
+    "contact_title": "Business Inquiries"
+  },
+  "nav": {
+    "core": "Core",
+    "flow": "Reflex",
+    "solutions": "Solutions",
+    "vision": "Vision",
+    "about": "About",
+    "menu": {
+      "product": {
+        "label": "Product",
+        "o1": { "title": "O-1 Chip", "desc": "Core of Edge Computing. 200 TOPS, Zero Latency." },
+        "flow": { "title": "Reflex OS", "desc": "Operating System that gives machine intuition." },
+        "hardware": { "title": "Hardware", "desc": "Industrial sensors & controllers kit." },
+        "security": { "title": "Security", "desc": "Chip-level encryption, physical isolation." }
+      },
+      "developers": {
+        "label": "Developers",
+        "docs": { "title": "Documentation", "desc": "Complete guide from start to deployment." },
+        "api": { "title": "API Reference", "desc": "Granular low-level interface docs." },
+        "sdk": { "title": "SDK", "desc": "Supports C++, Python, Rust." },
+        "community": { "title": "Community", "desc": "Connect with embodied intelligence engineers worldwide." }
+      },
+      "company": {
+        "label": "Company",
+        "about": { "title": "About Us", "desc": "Obsidian's vision and philosophy." },
+        "careers": { "title": "Careers", "desc": "Work with the brightest minds." },
+        "research": { "title": "Research", "desc": "Exploring boundaries of AI and physics." },
+        "news": { "title": "Newsroom", "desc": "Latest releases and tech updates." }
+      }
+    }
+  },
+  "developersPage": {
+    "hero": {
+      "headline": "Full Access. Down to the Metal.",
+      "subtext": "We don’t believe in black boxes. With Obsidian SDK, you access every computing core of the NPU directly. No sugar-coated wrappers, just pure performance."
+    },
+    "docs": {
+      "title": "Documentation",
+      "text": "Clear, no nonsense. Our docs are maintained by core architects to ensure every parameter definition is accurate."
+    },
+    "sdk": {
+      "title": "SDK",
+      "multilang": "Native C++ performance, Python ease-of-use, Rust safety.",
+      "simulator": "Validate everything in a digital twin before flashing code to the chip."
+    },
+    "community": {
+      "text": "Join the Obsidian Developer Forum. No support agents here, only direct dialogue between engineers."
+    },
+    "cta": {
+      "title": "Direct Memory Access",
+      "desc": "Control the O-1 chip with zero-overhead bindings.",
+      "download": "Download SDK",
+      "github": "View on GitHub",
+      "toast": {
+        "title": "Reflex SDK 2.0 is currently in closed beta.",
+        "desc": "Please apply for access."
+      }
+    }
+  },
+  "careersPage": {
+    "hero": {
+      "headline": "Do the Hard Things.",
+      "subtext": "Obsidian is not for everyone. If you are satisfied with copy-pasting code, this is not for you. If you are excited about squeezing the last bit of performance from hardware, if you want to watch your code drive robotic arms to lift heavy weights—welcome home."
+    },
+    "positions": {
+      "perception": {
+        "title": "Perception Architect",
+        "desc": "Extreme optimization of Visual SLAM algorithms."
+      },
+      "kernel": {
+        "title": "Kernel Engineer",
+        "desc": "Dive into Reflex OS internals, manage millisecond-level interrupt responses."
+      },
+      "designer": {
+        "title": "Industrial Designer",
+        "desc": "Sketching the future industrial form with minimalist lines."
+      }
+    },
+    "research": {
+      "headline": "Defining Intelligence in 5 Years.",
+      "topic1": {
+        "title": "General Embodied Model",
+        "desc": "Robots knowing how to grasp objects they've never seen. We are training the next generation of physical world large models."
+      },
+      "topic2": {
+        "title": "Neural Rendering & Sim",
+        "desc": "Making the virtual world in the robot's eye indistinguishable from reality."
+      }
+    },
+    "labels": {
+      "open_positions": "Open Positions",
+      "tags": {
+        "Algorithm": "Algorithm",
+        "System": "System",
+        "Design": "Design"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "subtitle": "Data Gravity Principle",
+      "text": "Obsidian's Privacy Promise: Data Gravity Principle. We believe data has gravity; it should stay on the device that generated it. All inference, learning, and storage on the Obsidian O-1 chip happen locally. No bytes leave your hardware unless explicitly authorized and physically exported. We do not collect, upload, or training cloud models with your data."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "text": "Obsidian is committed to providing industrial-grade stability. Use of this product for development violating international humanitarian law or autonomous weapon systems is strictly prohibited."
+    },
+    "meta": {
+      "last_updated": "Last updated:",
+      "version": "Terms of Service v1.0 • Enforcement Date:"
+    }
+  },
+  "footer": {
+    "product": "Product",
+    "o1": "O-1 Chip",
+    "flow": "Reflex OS",
+    "security": "Security",
+    "hardware": "Hardware",
+    "resources": "Resources",
+    "docs": "Documentation",
+    "api": "API Reference",
+    "sdk": "SDK",
+    "community": "Community",
+    "company": "Company",
+    "about": "About Us",
+    "careers": "Careers",
+    "research": "Research",
+    "news": "Newsroom",
+    "legal_title": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "tagline": "Building the backbone of machines."
+  },
+  "flow": {
+    "title": "Reflex OS",
+    "subtitle": "Integration is Flow.",
+    "description": "The real-time operating system designed for embodied intelligence. It's not just code; it's the machine's nervous system. From visual perception to motor control, data streams with zero-copy inside the kernel. Making every robot movement as natural as biological instinct.",
+    "features": {
+      "realtime": "Hard Real-time",
+      "realtimeDesc": "Microsecond Jitter Control",
+      "security": "Industrial Safety",
+      "securityDesc": "ISO 26262 Compliant",
+      "latency": "Ultra-Low Latency",
+      "latencyDesc": "0.5ms from Sense to Act",
+      "compatibility": "Ecosystem Ready",
+      "compatibilityDesc": "Native ROS2 & Python Support"
+    }
+  },
+  "hero": {
+    "title": "Invisible Intelligence.",
+    "subtitle": "Real technology is as precise as gravity. Invisible, silent, omnipresent.",
+    "description": "We don’t build robot shells. Whether it's the steel joints of a robotic arm or the chassis of an autonomous vehicle, that's just the body. Obsidian builds the ‘Heart’ that understands the physical world—the compute power silently flowing beneath aluminum armor, and the decisions made in microseconds. We believe ultimate intelligence shouldn't be flaunted; it should dissolve into every perfect grasp on the production line, silent yet powerful."
+  },
+
+  "philosophy": {
+    "title": "Our Philosophy",
+    "card1": {
+      "title": "Physics First",
+      "subtitle": "",
+      "description": "Code cannot defy gravity. Our algorithms never deviate from physical reality. Before writing the first line of code, we calculate friction, inertia, and thermodynamic boundaries. Make software surrender to physics, not fight it."
+    },
+    "card2": {
+      "title": "Silent Data",
+      "subtitle": "",
+      "description": "Data is an asset, not a commodity. The O-1 chip uses a localized inference architecture. Images captured by cameras, vibrations recorded by sensors—everything is computed at the edge. No cloud upload, no privacy leaks. Your data belongs only to your device."
+    },
+    "card3": {
+      "title": "Built to Last",
+      "subtitle": "",
+      "description": "Industrial sites don't accept 'Beta versions'. Our hardware and software standards are born for 50,000 hours of continuous operation. We don't chase trends; we chase the extreme certainty of 'zero downtime'."
+    }
+  },
+  "hardwarePage": {
+    "hero": {
+      "subtitle": "The Ultimate Form of Edge Computing",
+      "subtext": "Precision engineered for the edge.",
+      "specs": {
+        "tops": "200 TOPS",
+        "power": "15 Watts",
+        "dependency": "Zero Cloud Dependency"
+      }
+    },
+    "material": {
+      "title": "Armored Body,<br/>Carrying Intelligence.",
+      "subtitle": "Armored Intelligence.",
+      "p1": "Forged from 6000-series aerospace-grade aluminum, CNC machined from a single block via 5-axis milling.",
+      "p2": "This is not just a shell; it is the passive cooling armor for the entire computing unit.",
+      "highlight": "No fans. No noise. Only cold metal and pure performance."
+    },
+    "exploded": {
+      "armour": { "label": "ARMOUR", "desc": "Graphene Coated Aluminum" },
+      "npu": { "label": "NPU", "desc": "4nm Neural Engine" },
+      "mainboard": { "label": "MAINBOARD", "desc": "12-Layer High Density PCB" },
+      "cta": { "title": "Deconstruct the Architecture", "subtitle": "Scroll to Analyze" }
+    },
+    "thermal": {
+      "title": "Cool.",
+      "subtitle": "Stay Cool.",
+      "desc": "Designed for harsh industrial environments from <span class=\"text-white font-mono\">-20°C</span> to <span class=\"text-white font-mono\">60°C</span>.<br />Remains calm and restrained even at full computing power."
+    },
+    "specs": {
+      "title": ":: SYSTEM_SPECIFICATIONS",
+      "items": {
+        "processor": { "label": "PROCESSOR", "value": "4nm TSMC Flagship SoC" },
+        "ai": { "label": "AI PERFORMANCE", "value": "200 INT8 TOPS" },
+        "cpu": { "label": "CPU ARCHITECTURE", "value": "8-Core Arm Cortex-A78AE" },
+        "protection": { "label": "PROTECTION RATING", "value": "IP67 (Dust & Water Resistant)" },
+        "dimensions": { "label": "DIMENSIONS", "value": "100mm x 100mm x 35mm" },
+        "weight": { "label": "WEIGHT", "value": "450g (Aluminum Alloy)" },
+        "connectivity": { "label": "CONNECTIVITY", "value": "Dual 2.5GbE / WiFi 6E / BT 5.3" },
+        "os": { "label": "OPERATING SYSTEM", "value": "YaoOS Edge / Ubuntu 22.04 LTS" }
+      },
+      "availability": "Limited Availability Q1 2026"
+    }
+  },
+  "softwarePage": {
+    "hero": {
+      "title": "Reflex OS",
+      "subtitle": "Giving intuition to the steel body. The real-time operating system built for embodied intelligence."
+    },
+    "interface": {
+      "title": "What You See Is What You Get.",
+      "subtitle": "Real-time visual debugging terminal."
+    },
+    "bento": {
+      "kernel": {
+        "title": "0.5ms Ultra-low Latency Kernel",
+        "desc": "Say goodbye to jitter. Reflex OS bypasses the traditional Linux scheduling layer to communicate directly with the O-1 chip."
+      },
+      "native": {
+        "title": "Native Multi-language Support"
+      },
+      "sim": {
+        "title": "Sim-to-Real",
+        "desc": "Crash 1000 times in the virtual world, just for perfect avoidance in reality."
+      }
+    },
+    "code": {
+      "title": "Code, <br/>Never So Elegant.",
+      "desc": "Python API designed for robotics, reducing complex motion control from hundreds of lines to just a few.",
+      "comment": "# Millisecond-level obstacle avoidance response"
+    }
+  },
+  "solutionsPage": {
+    "hero": {
+      "title": "Answers to the Physical World.",
+      "subtitle": "From micron-level assembly lines to autonomous mines. When the cloud cannot reach, Obsidian takes over."
+    },
+    "cases": {
+      "automotive": {
+        "title": "Neural Assembly",
+        "client": "Top-tier EV Manufacturer",
+        "challenge": "Flexible material assembly is notorious for robots. Traditional automation fails when the material bends unpredictably.",
+        "solution": "Robotic arms equipped with O-1 cores use Reflex OS 'Real-time Force Control'. Instead of rigidly following paths, it 'feels' the resistance like human fingers, micro-adjusting posture by 0.02mm.",
+        "metric": "99.98% Yield"
+      },
+      "medical": {
+        "title": "Zero Latency",
+        "client": "Remote Surgical Systems",
+        "challenge": "In telesurgery, a 200ms network lag can be fatal. Cloud processing is not an option.",
+        "solution": "Obsidian's edge computing locks visual processing and force feedback locally. Hand tremors are filtered, while tissue haptics are transmitted back in <1ms.",
+        "metric": "< 1ms Latency"
+      },
+      "mining": {
+        "title": "Off-Grid Autonomy",
+        "client": "Deep Earth Mining Corp",
+        "challenge": "500 meters underground. No GPS. No 5G. High dust, high vibration.",
+        "solution": "LiDAR-based pure local SLAM navigation. Truck swarms communicate via Mesh networks in total darkness, operating continuously for 30 days without signal.",
+        "metric": "0 Interventions"
+      },
+      "logistics": {
+        "title": "Swarm Intelligence",
+        "client": "Global Logistics Hub",
+        "challenge": "Scheduling 500+ AGVs usually requires a massive central server. If the server halts, the warehouse stops.",
+        "solution": "Decentralized architecture. Each AGV is a compute node. They negotiate right-of-way automatically, avoiding like a school of fish. No center, no single point of failure.",
+        "metric": "+300% Throughput"
+      }
+    },
+    "cta": {
+      "text": "Facing similar entropy?",
+      "button": "Talk to a Solution Architect"
+    },
+    "labels": {
+      "case_study": "— Case Study",
+      "challenge": "The Challenge",
+      "solution": "The Solution"
+    }
+  },
+  "home": {
+    "hero": {
+      "title_Line1": "Perception Is",
+      "title_Line2": "The Backbone of Thought.",
+      "subtitle": "Obsidian O-1 Neural Compute Platform. Letting intelligence leave the cloud and return to atoms.",
+      "watch_film": "Watch Brand Film",
+      "learn_more": "Deconstruct O-1 Architecture"
+    },
+    "gap": {
+      "title_Line1": "0.5 Milliseconds.",
+      "title_Line2": "Reshaping Physical Order.",
+      "text": "In the micro-precision of industrial operations, waiting is a risk. Obsidian O-1 eliminates transmission latency by injecting supercomputing power directly into every robotic joint.",
+      "highlight": "Now, perception is action."
+    },
+    "software": {
+      "title": "Reflex OS. The IDE mastering the physical world.",
+      "subtitle": "Real-time OS designed for embodied intelligence. Simplifying complex physical laws into elegant code."
+    },
+    "bento": {
+      "fusion": {
+        "title": "Hardware-Software Fusion.",
+        "desc": "Hardware defines the boundary. Software breaks it."
+      },
+      "privacy": {
+        "title": "Data Gravity Principle.",
+        "desc": "Local inference. Your data never leaves your factory."
+      },
+      "efficiency": {
+        "title": "Calm Performance Beast.",
+        "desc": "200 TOPS of surging power. Unibody CNC vapor chamber armor. Stays calm even at the limit."
+      }
+    },
+    "impact": {
+      "title": "Empowering \"Zero-Error\" Scenarios.",
+      "text": "From minimally invasive surgery to unmanned mining 1000m underground. Obsidian is redefining the baseline of industry.",
+      "cta": "Explore Industry Solutions"
+    }
+  },
+  "companyPage": {
+    "hero": {
+      "title": "Calm as Obsidian.",
+      "subtitle": "Calm as Obsidian.",
+      "text": "In this noisy AI era, we choose calm. We don't chase the language bubbles of generative AI; we focus on the certainty of the physical world. Obsidian Intelligence: building the backbone of machines."
+    },
+    "origin": {
+      "title": "The Weight of a Name.",
+      "p1_strong": "Obsidian",
+      "p1": " was born from the rapid cooling of volcanic lava. Hard, sharp, it was one of humanity's earliest tools.",
+      "p2": "We named ourselves this because with the O-1 chip, we are doing the same:",
+      "p2_quote": "Cooling the scorching, chaotic Data Magma at the edge, condensing it into hard, sharp action commands.",
+      "p3": "From chaos to order. From magma to blade. This is Obsidian.",
+      "caption": "FIG. 01 — TRANSITION_STATE"
+    },
+    "vision": {
+      "title": "Invisible Intelligence.",
+      "subtitle": "Invisible Intelligence.",
+      "p1": "Real technology should be like gravity—omnipresent, yet invisible.",
+      "p2": "Our vision is to let intelligence \"descend\" from cloud data centers into robot joints, car chassis, and camera retinas. When you don't feel its existence, but just feel the machine becoming handy, dexterous, and understanding, our work is done."
+    },
+    "code": {
+      "title": "// The Obsidian Code",
+      "items": {
+        "01": { "title": "Local First", "desc": "Compute at the edge. Intelligence at the edge. Never rely on unstable networks." },
+        "02": { "title": "Heavy Duty", "desc": "We are not born for demos. We are born for 24/7 industrial sites." },
+        "03": { "title": "Silence", "desc": "Talk less, do more. Let lines of code and runtime efficiency speak." }
+      }
+    },
+    "team": {
+      "title": "The Builders.",
+      "subtitle": "The Builders.",
+      "text": "We are a group of algorithm engineers, chip architects, and hardcore geeks. We once changed the world through code in Silicon Valley giants; now, we return to the physical world, trying to move atoms with code.",
+      "cta": "View Open Positions"
+    },
+    "footer": {
+      "quote": "The stone age didn't end because we ran out of stones. It ended because we found something sharper.",
+      "author": "— OBSIDIAN INTELLIGENCE."
+    }
+  },
+  "calibrationPage": {
+    "title": "Module Offline. / 模块离线。",
+    "status": "SYSTEM CALIBRATION IN PROGRESS",
+    "log": {
+      "line1": "Loading kernel modules... OK",
+      "line2": "Verifying neural weights... OK",
+      "line3": "Establishing secure handshake... PENDING",
+      "line4": "Access to this sector is currently restricted to Level 5 Clearance."
+    },
+    "body": "The area you are accessing (Docs / API / Lab) is undergoing final security audit before launch. To ensure industrial-grade stability, we refuse to release half-finished products. Estimated opening: Q3 2026.",
+    "placeholder": "Enter access credential (Email)",
+    "request": "Request Signal",
+    "return": "Return to Mission Control"
+  }
+}

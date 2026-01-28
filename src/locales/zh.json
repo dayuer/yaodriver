@@ -1,0 +1,396 @@
+{
+  "common": {
+    "contact": "联系我们",
+    "menu": "菜单",
+    "learnMore": "了解更多",
+    "watchFilm": "观看影片"
+  },
+  "about": {
+    "title": "关于我们",
+    "story_p1": "曜行智能（Obsidian Intelligence）诞生于一个简单的问题：如果有生命的不仅仅是碳基生物？我们是一群来自机器人学、人工智能和精密制造领域的工程师与设计师。",
+    "story_p2": "我们不相信暴力计算，我们相信优雅的解法。在这个充满噪音的世界里，我们致力于创造那些安静、强大且隐形的智能核心，驱动未来的工业心脏。",
+    "join_us": "加入我们，重新定义智能",
+    "location_title": "北京总部",
+    "address": "北京市海淀区中关村大街 1 号\n曜行创新中心 A 座",
+    "contact_title": "商务合作"
+  },
+  "nav": {
+    "core": "核心",
+    "flow": "Reflex",
+    "solutions": "解决方案",
+    "vision": "愿景",
+    "about": "关于我们",
+    "menu": {
+      "product": {
+        "label": "产品",
+        "o1": { "title": "O-1 Chip", "desc": "边缘计算的核心。200 TOPS，零延时。" },
+        "flow": { "title": "Reflex OS", "desc": "赋予机器直觉的操作系统。" },
+        "hardware": { "title": "Hardware", "desc": "工业级传感器与控制器套件。" },
+        "security": { "title": "Security", "desc": "芯片级加密，物理隔绝风险。" }
+      },
+      "developers": {
+        "label": "开发者",
+        "docs": { "title": "Documentation", "desc": "从入门到部署的完整指南。" },
+        "api": { "title": "API Reference", "desc": "细致入微的底层接口文档。" },
+        "sdk": { "title": "SDK", "desc": "支持 C++, Python, Rust。" },
+        "community": { "title": "Community", "desc": "与全球具身智能工程师交流。" }
+      },
+      "company": {
+        "label": "关于",
+        "about": { "title": "About Us", "desc": "曜行的愿景与哲学。" },
+        "careers": { "title": "Careers", "desc": "与最聪明的大脑一起工作。" },
+        "research": { "title": "Research", "desc": "探索 AI 与物理世界的边界。" },
+        "news": { "title": "Newsroom", "desc": "最新发布与技术动态。" }
+      }
+    }
+  },
+  "developersPage": {
+    "hero": {
+      "headline": "底层权限，完全交付。",
+      "subtext": "我们不相信黑盒。通过 Obsidian SDK，你可以直接调用 NPU 的每一个算力核心。没有封装好的糖衣，只有纯粹的性能。"
+    },
+    "docs": {
+      "title": "文档",
+      "text": "清晰，没有废话。我们的文档由核心架构师亲自维护，确保你看到的每一个参数定义都是准确的。"
+    },
+    "sdk": {
+      "title": "SDK",
+      "multilang": "Native C++ 性能，Python 的易用性，Rust 的安全性。",
+      "simulator": "在把代码写入芯片前，先在数字孪生环境中验证一切。"
+    },
+    "community": {
+      "text": "加入曜行开发者论坛。这里没有客服回复，只有工程师之间的直接对话。"
+    },
+    "cta": {
+      "title": "直接内存访问 (DMA)",
+      "desc": "通过零开销绑定控制 O-1 芯片。",
+      "download": "下载 SDK",
+      "github": "在 GitHub 上查看",
+      "toast": {
+        "title": "Reflex SDK 2.0 目前处于内测阶段。",
+        "desc": "请申请访问权限。"
+      }
+    }
+  },
+  "careersPage": {
+    "hero": {
+      "headline": "做难事。",
+      "subtext": "曜行不是一家适合所有人的公司。 如果你满足于复制粘贴代码，这里不适合你。 如果你对榨干硬件的最后一丝性能由衷兴奋，如果你想看着自己的代码驱动机械臂举起重物——欢迎回家。"
+    },
+    "positions": {
+      "perception": {
+        "title": "Perception Architect (感知架构师)",
+        "desc": "负责视觉 SLAM 算法的极致优化。"
+      },
+      "kernel": {
+        "title": "Kernel Engineer (内核工程师)",
+        "desc": "深入 Reflex OS 底层，管理毫秒级的中断响应。"
+      },
+      "designer": {
+        "title": "Industrial Designer (工业设计师)",
+        "desc": "用极简线条勾勒未来的工业形态。"
+      }
+    },
+    "research": {
+      "headline": "定义五年后的智能。",
+      "topic1": {
+        "title": "通用具身模型",
+        "desc": "哪怕从未见过的物体，机器人也能知道如何抓取。我们正在训练下一代物理世界的大模型。"
+      },
+      "topic2": {
+        "title": "神经渲染与仿真",
+        "desc": "让机器人眼中的虚拟世界与真实世界无法区分。"
+      }
+    },
+    "labels": {
+      "open_positions": "开放职位",
+      "tags": {
+        "Algorithm": "算法",
+        "System": "系统",
+        "Design": "设计"
+      }
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "隐私政策",
+      "subtitle": "数据重力原则",
+      "text": "曜行的隐私承诺：数据重力原则。 我们坚信数据具有重力，它应该永远停留在产生它的设备上。 曜行 O-1 芯片的所有推理、学习、存储均在本地完成。除非您明确授权并物理导出，否则没有任何字节会离开您的硬件。我们不收集、不上传、不通过您的数据训练云端模型。"
+    },
+    "terms": {
+      "title": "服务条款",
+      "text": "曜行致力于提供工业级稳定性的产品。严禁将本产品用于违反国际人道主义法或自主武器系统的开发。"
+    },
+    "meta": {
+      "last_updated": "最后更新：",
+      "version": "服务条款 v1.0 • 生效日期："
+    }
+  },
+  "footer": {
+    "product": "产品",
+    "o1": "O-1 芯片",
+    "flow": "Reflex OS",
+    "security": "安全架构",
+    "hardware": "核心硬件",
+    "resources": "资源",
+    "docs": "开发者文档",
+    "api": "API 参考",
+    "sdk": "SDK 下载",
+    "community": "社区",
+    "company": "公司",
+    "about": "关于我们",
+    "careers": "加入我们",
+    "research": "前沿研究",
+    "news": "新闻动态",
+    "legal_title": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "tagline": "构建机器的脊梁。"
+  },
+  "flow": {
+    "title": "Reflex OS",
+    "subtitle": "融合，即是流动。",
+    "description": "专为具身智能设计的实时操作系统。它不是简单的代码集合，而是机器的神经中枢。从视觉感知到电机力控，数据在内核中零拷贝传输。让机器人的每一个动作，都像生物本能一样自然。",
+    "features": {
+      "realtime": "硬实时内核",
+      "realtimeDesc": "微秒级抖动控制，确保精准时序",
+      "security": "工业级安全",
+      "securityDesc": "符合 ISO 26262 功能安全标准",
+      "latency": "极致低延迟",
+      "latencyDesc": "感知到执行仅需 0.5ms",
+      "compatibility": "生态兼容",
+      "compatibilityDesc": "原生支持 ROS2 与 Python 接口"
+    }
+  },
+  "hero": {
+    "title": "隐形智能。",
+    "subtitle": "真正的科技，如引力般精准。无形，无声，无处不在。",
+    "description": "我们不制造机器人的外壳。无论是机械臂的钢铁关节，还是自动驾驶的底盘轮毂，那都只是躯体。曜行构建的是那颗理解物理世界的“心”——那些在铝合金装甲下静静流转的算力，以及在微秒间做出的抉择。我们相信，极致的智能不应被炫耀，它应消融在生产线的每一次完美抓取中，安静而强大。"
+  },
+  "philosophy": {
+    "title": "我们的信条",
+    "card1": {
+      "title": "物理优先",
+      "subtitle": "Physics First",
+      "description": "代码无法违背重力。我们的算法从不脱离物理现实。在编写第一行代码前，我们先计算摩擦力、惯性和热力学边界。让软件臣服于物理，而非对抗。"
+    },
+    "card2": {
+      "title": "数据静默",
+      "subtitle": "Silent Data",
+      "description": "数据是资产，不是商品。O-1 芯片采用本地化推理架构。摄像头捕捉的画面，传感器记录的震动，全部在边缘端完成计算。没有云端上传，没有隐私泄露。你的数据，永远只属于你的设备。"
+    },
+    "card3": {
+      "title": "长期主义",
+      "subtitle": "Built to Last",
+      "description": "工业现场不接受“Beta 版”。我们的软硬件设计标准，是为连续运行 50,000 小时而生。我们不追逐风口，我们追逐“不宕机”的极致确定性。"
+    }
+  },
+  "hardwarePage": {
+    "hero": {
+      "subtitle": "边缘算力的终极形态",
+      "subtext": "The Ultimate Form of Edge Computing",
+      "specs": {
+        "tops": "200 TOPS",
+        "power": "15 Watts",
+        "dependency": "零云端依赖"
+      }
+    },
+    "material": {
+      "title": "以装甲之躯，<br/>承载智慧。",
+      "subtitle": "Armored Intelligence.",
+      "p1": "采用 6000 系航空级铝合金，经由五轴 CNC 一体成型切削。",
+      "p2": "这不仅仅是外壳，更是整个计算单元的被动散热装甲。",
+      "highlight": "没有风扇。没有噪音。只有冰冷的金属和纯粹的性能。"
+    },
+    "exploded": {
+      "armour": { "label": "ARMOUR", "desc": "Graphene Coated Aluminum" },
+      "npu": { "label": "NPU", "desc": "4nm Neural Engine" },
+      "mainboard": { "label": "MAINBOARD", "desc": "12-Layer High Density PCB" },
+      "cta": { "title": "Deconstruct the Architecture", "subtitle": "Scroll to Analyze" }
+    },
+    "thermal": {
+      "title": "冷静。",
+      "subtitle": "Stay Cool.",
+      "desc": "专为 <span class=\"text-white font-mono\">-20°C</span> 至 <span class=\"text-white font-mono\">60°C</span> 的严苛工业环境设计。<br />在算力全开的状态下，依然保持冷静克制。"
+    },
+    "specs": {
+      "title": ":: SYSTEM_SPECIFICATIONS",
+      "items": {
+        "processor": { "label": "PROCESSOR", "value": "4nm TSMC Flagship SoC" },
+        "ai": { "label": "AI PERFORMANCE", "value": "200 INT8 TOPS" },
+        "cpu": { "label": "CPU ARCHITECTURE", "value": "8-Core Arm Cortex-A78AE" },
+        "protection": { "label": "PROTECTION RATING", "value": "IP67 (防尘防水)" },
+        "dimensions": { "label": "DIMENSIONS", "value": "100mm x 100mm x 35mm" },
+        "weight": { "label": "WEIGHT", "value": "450g (铝合金)" },
+        "connectivity": { "label": "CONNECTIVITY", "value": "Dual 2.5GbE / WiFi 6E / BT 5.3" },
+        "os": { "label": "OPERATING SYSTEM", "value": "YaoOS Edge / Ubuntu 22.04 LTS" }
+      },
+      "availability": "2026 Q1 限量发售"
+    }
+  },
+  "softwarePage": {
+    "hero": {
+      "title": "Reflex OS",
+      "subtitle": "赋予钢铁躯体以直觉。专为具身智能打造的实时操作系统。"
+    },
+    "interface": {
+      "title": "所见，即所得。",
+      "subtitle": "实时可视化调试终端。"
+    },
+    "bento": {
+      "kernel": {
+        "title": "0.5ms 超低延时内核",
+        "desc": "告别卡顿。Reflex OS 绕过传统 Linux 调度层，直接与 O-1 芯片通信。"
+      },
+      "native": {
+        "title": "多语言原生支持"
+      },
+      "sim": {
+        "title": "Sim-to-Real",
+        "desc": "在虚拟世界撞车 1000 次，只为了现实中的完美避让。"
+      }
+    },
+    "code": {
+      "title": "代码，<br/>从未如此优雅。",
+      "desc": "专为机器人开发设计的 Python API，让复杂的运动控制从几百行代码缩减至寥寥数行。",
+      "comment": "# 毫秒级避障响应"
+    }
+  },
+  "solutionsPage": {
+    "hero": {
+      "title": "物理世界的答案。",
+      "subtitle": "从微米级的装配线，到数千英亩的无人矿区。当云端算力无法触及，曜行智能接管一切。"
+    },
+    "cases": {
+      "automotive": {
+        "title": "Neural Assembly / 神经装配",
+        "client": "Top-tier EV Manufacturer",
+        "challenge": "柔性材料装配是机器人的噩梦。传统自动化在面对不可预测的形变时往往束手无策。",
+        "solution": "搭载 O-1 核心的机械臂，利用 Reflex OS 的“实时力控反馈”模型。它不再是死板地走轨迹，而是像人类手指一样“感受”橡胶的阻力，实时微调 0.02mm 的姿态。",
+        "metric": "99.98%"
+      },
+      "medical": {
+        "title": "Zero Latency / 零延时触觉",
+        "client": "Remote Surgical Systems",
+        "challenge": "在远程手术中，200ms 的网络延迟可能是致命的。云端处理不可行。",
+        "solution": "曜行的边缘计算方案将视觉处理与力反馈完全锁定在本地。医生手部的微颤被算法滤除，而组织的触感在 1ms 内回传。",
+        "metric": "< 1ms"
+      },
+      "mining": {
+        "title": "Off-Grid Autonomy / 离网自治",
+        "client": "Deep Earth Mining Corp",
+        "challenge": "地下 500 米。无 GPS，无 5G，高粉尘，高震动。",
+        "solution": "基于激光雷达 (LiDAR) 的纯本地 SLAM 导航。矿卡群在完全黑暗中通过自组网 (Mesh) 通信，在无信号区连续作业 30 天。",
+        "metric": "0 人工干预"
+      },
+      "logistics": {
+        "title": "Swarm Intelligence / 蜂群思维",
+        "client": "Global Logistics Hub",
+        "challenge": "调度 500+ 台 AGV 通常需要庞大的中央服务器。一旦服务器宕机，仓库随即停摆。",
+        "solution": "去中心化架构。每一台 AGV 都是一个计算节点。它们自动协商路权，像鱼群一样自然避让。没有中心，就没有单点故障。",
+        "metric": "300%"
+      }
+    },
+    "cta": {
+      "text": "您的行业同样面临挑战？",
+      "button": "咨询行业解决方案架构师"
+    },
+    "labels": {
+      "case_study": "— 案例研究",
+      "challenge": "挑战",
+      "solution": "解决方案"
+    }
+  },
+  "home": {
+    "hero": {
+      "title_Line1": "感知，",
+      "title_Line2": "是思考的脊梁。",
+      "subtitle": "曜行 O-1 神经计算平台。让智能脱离云端，回归原子。",
+      "watch_film": "观看品牌影片",
+      "learn_more": "深研 O-1 架构"
+    },
+    "gap": {
+      "title_Line1": "0.5 毫秒。",
+      "title_Line2": "重塑物理秩序。",
+      "text": "在精密工业的毫厘之间，等待即是风险。曜行 O-1 彻底消灭了“传输延迟”，我们将超级算力直接注入机器的每一个关节。",
+      "highlight": "此刻，感知即是行动。"
+    },
+    "software": {
+      "title": "Reflex OS. 掌控物理世界的 IDE。",
+      "subtitle": "专为具身智能设计的实时操作系统。将复杂的物理定律，简化为优雅的代码。"
+    },
+    "bento": {
+      "fusion": {
+        "title": "软硬一体，原生融合。",
+        "desc": "硬件定义边界，软件打破边界。"
+      },
+      "privacy": {
+        "title": "数据重力原则。",
+        "desc": "本地推理。你的数据永远不离开你的厂房。"
+      },
+      "efficiency": {
+        "title": "冷静的性能野兽。",
+        "desc": "200 TOPS 澎湃算力。 采用一体式 CNC 均热装甲。在算力全开的极限时刻，依然保持冷静。"
+      }
+    },
+    "impact": {
+      "title": "赋能那些“不能出错”的场景。",
+      "text": "从无菌手术室的微创操作，到千米深井下的无人挖掘。曜行智能正在重新定义工业的底线。",
+      "cta": "探索行业解决方案"
+    }
+  },
+  "companyPage": {
+    "hero": {
+      "title": "像黑曜石一样冷静。",
+      "subtitle": "Calm as Obsidian.",
+      "text": "在这个噪杂的 AI 时代，我们选择冷静。我们不追逐生成式 AI 的语言泡沫，我们专注于物理世界的确定性。曜行智能，致力于构建机器的脊梁。"
+    },
+    "origin": {
+      "title": "名字的重量。",
+      "p1_strong": "黑曜石 (Obsidian)",
+      "p1": " 诞生于火山熔岩的极速冷却。它坚硬、锋利，是人类最早的工具之一。",
+      "p2": "我们以此命名，因为通过 O-1 芯片，我们也在做同样的事：",
+      "p2_quote": "将滚烫、无序的数据流 (Data Magma)，在边缘端极速冷却，凝结成坚硬、锋利的行动指令。",
+      "p3": "从混沌到有序。从岩浆到利刃。这就是曜行。",
+      "caption": "FIG. 01 — TRANSITION_STATE"
+    },
+    "vision": {
+      "title": "隐形智能。",
+      "subtitle": "Invisible Intelligence.",
+      "p1": "真正的科技应该像引力一样——无处不在，却不可见。",
+      "p2": "我们的愿景，是让智能从云端的数据中心“下沉”，融入到机械臂的关节里，汽车的底盘里，摄像头的视网膜里。当你感觉不到它的存在，只觉得机器变得顺手、灵巧、懂你时，我们的工作就完成了。"
+    },
+    "code": {
+      "title": "// The Obsidian Code",
+      "items": {
+        "01": { "title": "Local First", "desc": "算力在现场，智能就在现场。绝不依赖不稳定的网络。" },
+        "02": { "title": "Heavy Duty", "desc": "我们不为 demo 而生，我们为 7x24 小时的工业现场而生。" },
+        "03": { "title": "Silence", "desc": "少说话，多做事。用代码行数和运行效率说话。" }
+      }
+    },
+    "team": {
+      "title": "造物者。",
+      "subtitle": "The Builders.",
+      "text": "我们是一群由算法工程师、芯片架构师和硬核极客组成的工匠。我们曾在硅谷的巨头公司通过代码改变世界，现在，我们回到物理世界，试图用代码移动原子。",
+      "cta": "查看开放职位"
+    },
+    "footer": {
+      "quote": "石器时代的结束，并不是因为石头用完了。而是因为我们找到了更锋利的东西。",
+      "author": "— 曜行智能"
+    }
+  },
+  "calibrationPage": {
+    "title": "Module Offline. / 模块离线。",
+    "status": "系统校准中",
+    "log": {
+      "line1": "正在加载内核模块... 完成",
+      "line2": "验证神经权重... 完成",
+      "line3": "建立安全握手... 挂起",
+      "line4": "当前区域访问权限仅限 Level 5。"
+    },
+    "body": "您所访问的区域（文档中心 / API 接口 / 实验室）正在进行上线前的最终安全审计。为了确保工业级的稳定性，我们拒绝发布半成品。预计开放时间：2026 Q3。",
+    "placeholder": "输入访问凭证 (Email)",
+    "request": "请求信号",
+    "return": "返回指挥中心"
+  }
+}

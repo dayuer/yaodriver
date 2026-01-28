@@ -1,0 +1,25 @@
+version: "3"
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      # 添加构建参数，让构建过程（npm install）走代理
+      args:
+        - HTTP_PROXY=http://host.docker.internal:10809
+        - HTTPS_PROXY=http://host.docker.internal:10809
+    image: yaodriver:latest
+    container_name: yaodriver
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    
+    # Linux 必需配置：让容器能解析 host.docker.internal 指向宿主机
+    extra_hosts:
+      - "host.docker.internal:bridge"
+    
+    environment:
+      - NODE_ENV=production
+      # 如果运行时的应用也需要访问外网（如 API 请求），建议也加上：
+      # - HTTP_PROXY=http://host.docker.internal:10809
+      # - HTTPS_PROXY=http://host.docker.internal:10809
